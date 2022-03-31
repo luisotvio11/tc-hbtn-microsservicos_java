@@ -1,0 +1,27 @@
+O que é Spring Boot Framework
+
+Spring boot é um framework java open source que tem como objetivo facilitar o processo de construir aplicações Java.
+Com o spring boot temos maior otimização de tempo.
+
+Vantagens e desvantagens em utilizar o Spring Boot.
+
+Vantagens
+O maior benefício de usar o Spring Boot é conseguir otimizar seu tempo e aumentar sua produtividade, já que ele simplifica o desenvolvimento de aplicações.
+
+Desvantagens
+
+Você tem pouco controle com o Spring Boot. Quero dizer que, como o Spring configura o projeto para você, faz com que a ferramenta instale muitas dependências extras na qual você nem sequer vai utilizar, isso faz com que o tamanho da sua aplicação ocupe muito espaço desnecessário.
+
+Como é feita a adição de novas dependências (JPA, Hibernate, etc…) ?
+
+Adicionando as dependências no arquivo pon.xml ou adicionando no spring inicializer
+
+Na sua opinião, qual melhor IDE para utilizar para trabalhar como Spring Boot: Spring Tools Suites, IntelliJ IDEA, Eclipse ou NetBeans ?
+
+Intellij 
+
+
+O que é Spring Initializer?
+
+
+SPRING INITIALIZR fornece uma interface web bem simples para o usuário. Podendo gerar seu projeto a partir de uma estrutura de configurações pré-moldadas

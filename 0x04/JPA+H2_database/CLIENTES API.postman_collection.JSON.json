@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "b9f5d30e-357a-428f-89ce-45fd27c9c81c",
+		"name": "CLIENTES API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ADD",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"nome\": \"Antonio Grimaldo\",\r\n    \"idade\": \"25\",\r\n    \"email\" :\"antoniogrimaldo@email.com\",\r\n    \"telefoneList\": [{\"ddd\": \"24\", \"numero\": \"22449586\" }],\r\n    \"enderecoList\": [{\r\n      \r\n        \"logadouro\":\"Vila12\",\r\n        \"endereco\": \"Vila São Francisco\",\r\n        \"numero\": \"110\",\r\n        \"bairro\": \"Castelanea\",\r\n        \"cidade\": \"Petropolis\",\r\n        \"estado\": \"RJ\"\r\n    }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/addClient",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"addClient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND_ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/findAllClients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"findAllClients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND_BY_ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/findClientById/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"findClientById",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE_BY_ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/removeClientById/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"removeClientById",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/updateClientById/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"updateClientById",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
